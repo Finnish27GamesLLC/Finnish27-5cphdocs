@@ -1,0 +1,60 @@
+5cph.BAS PROGRAM INPUT RECORD
+ 
+enter the 'folder/filename prefix' of the files
+to be used to store application output.
+5cphdocs/BugB
+ 
+Press 1 and enter for (fully wild rule) enables each joker
+to represent the suit and rank of any other playing card.
+ 
+Else press enter for (bug rule) enables each joker to
+perform a function selected from a group consisting of
+represent an ace, complete a straight, complete a flush
+and complete a straight-flush.
+ 
+ 
+ 0 
+ 
+Press enter to input the rank of each of nine categories of poker hands.
+Press 1 and enter to use default hand ranking rules 
+ 1 
+ 
+a set of user-defined poker-hand-ranking rules create a hierarchy
+wherein poker hands of the high card category are assigned the lowest rank,
+and wherein poker hands of each category assigned a higher rank
+outrank poker hands of all categories assigned lower ranks.
+
+the default rank (1-9) assigned to one pair 
+ 1 
+ 
+the default rank (1-9) assigned to two pair 
+ 2 
+ 
+the default rank (1-9) assigned to three of a kind 
+ 3 
+ 
+the default rank (1-9) assigned to a straight 
+ 4 
+ 
+the default rank (1-9) assigned to a flush 
+ 5 
+ 
+the default rank (1-9) assigned to a full house 
+ 6 
+ 
+the default rank (1-9) assigned to four of a kind 
+ 7 
+ 
+the default rank (1-9) assigned to a straight flush 
+ 8 
+ 
+the default rank (1-9) assigned to five of a kind 
+ 9 
+ 
+a brief description of database parameters reads as follows: 
+open 5cphdocs/BugBi.txt to see a record of user input
+
+
+START: 02-02-2017 07:39:41
+
+END:   02-02-2017 07:39:43
